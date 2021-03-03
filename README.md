@@ -26,7 +26,7 @@ totalsulfurdioxide \
 density \
 pH \
 sulphates \
-alcohol\
+alcohol
 
 
 ## Resources
