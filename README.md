@@ -4,10 +4,12 @@
 
 ## Task
 The objective is to develop a model for predicting the quality of a white wine using certain characteristics of the wine. The response variable, Y, is the wine quality score
-and is an ordinal variable ranging from 1 to 3 where:
-1 = lower
-2 = medium
-3 = superior
+and is an ordinal variable ranging from 1 to 3 where:\
+
+
+1 = lower\
+2 = medium\
+3 = superior\
 
 
 ## Data
