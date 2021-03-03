@@ -2,6 +2,9 @@
 
 # Wine-quality-prediction
 
+
+
+
 ## Task
 The objective is to develop a model for predicting the quality of a white wine using certain characteristics of the wine. The response variable, Y, is the wine quality score
 and is an ordinal variable ranging from 1 to 3 where:\
@@ -10,6 +13,10 @@ and is an ordinal variable ranging from 1 to 3 where:\
 1 = lower\
 2 = medium\
 3 = superior
+
+The problem of predicting an ordinal variable is interesting because there are several ways to
+approach it. The following article provides an interesting overview of the issue.
+
 
 
 ## Data
@@ -30,8 +37,8 @@ alcohol
 
 
 ## Resources
-The problem of predicting an ordinal variable is interesting because there are several ways to
-approach it. The following article provides an interesting overview of the issue.
+
+The following article presents different techniques for ordinal classification problems.
 
 Gutierrez, P. A., Perez-Ortiz, M., Sanchez-Monedero, J., Fernandez-Navarro, F., & Hervas-
 Martinez, C. (2015). Ordinal regression methods: survey and experimental study. IEEE
