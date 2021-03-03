@@ -36,6 +36,41 @@ sulphates \
 alcohol
 
 
+
+## Results
+
+Below are given the different models trained as well as their accuracy.
+
+* **BASE** corresponds to models developed on the original dataset
+* **RFE** refers to Recursive feature elimination for feature selection
+* **VAR IMP** refers to variable importance provided from a GBM. 
+* **PCA** refers to principal componnent analysis for feature reduction
+
+| Models | Accuracy |
+|:-:|:-:|
+|H2O AutoML BASE|0,6725|
+|H2O Ensemble RF + GBM BASE|0,6575|
+|H2O Ensemble RF + GBM PCA|0,6575|
+|Random Forest BASE|0,6525|
+|H2O Ensemble RF + GBM VAR IMP|0,65|
+|H2O AutoML PCA|0,6425|
+|H2O GBM BASE|0,64|
+|H2O Random Forest BASE|0,6375|
+|H2O Ensemble RF + GBM RFE|0,6375|
+|KNN BASE|0,635|
+|Random Forest RFE|0,6325|
+|H2O AutoML RFE|0,63|
+|RF PCA|0,63|
+|Random Forest VAR IMP|0,625|
+|H2O AutoML VAR IMP|0,62|
+|Ordinal Random Forest BASE     |0,615|
+|GBM BASE|0,5825|
+|SVM radial BASE|0,565|
+|SVM polynomial BASE|0,555|
+|Régression linéaire BASE|0,5325|
+|Régression logistique ord BASE|0,525|
+|Naïf - classe majoritaire Y = 2|0,4525|
+
 ## Resources
 
 The following article presents different techniques for ordinal classification problems.
