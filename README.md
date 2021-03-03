@@ -9,7 +9,7 @@ and is an ordinal variable ranging from 1 to 3 where:\
 
 1 = lower\
 2 = medium\
-3 = superior\
+3 = superior
 
 
 ## Data
