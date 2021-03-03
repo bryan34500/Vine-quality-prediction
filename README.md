@@ -10,6 +10,23 @@ and is an ordinal variable ranging from 1 to 3 where:
 3 = superior
 
 
+## Data
+
+The data is comprised of 2000 observations and the input variables are based on physicochemical tests
+
+fixedacidity \
+volatileacidity \
+citricacid \
+residualsugar \
+chlorides \
+freesulfurdioxide \
+totalsulfurdioxide \
+density \
+pH \
+sulphates \
+alcohol\
+
+
 ## Resources
 The problem of predicting an ordinal variable is interesting because there are several ways to
 approach it. The following article provides an interesting overview of the issue.
@@ -17,20 +34,3 @@ approach it. The following article provides an interesting overview of the issue
 Gutierrez, P. A., Perez-Ortiz, M., Sanchez-Monedero, J., Fernandez-Navarro, F., & Hervas-
 Martinez, C. (2015). Ordinal regression methods: survey and experimental study. IEEE
 Transactions on Knowledge and Data Engineering, 28 (1), 127-146.
-
-## Data
-
-The data is comprised of 2000 observations and the input variables are based on physicochemical tests
-
-fixedacidity 
-volatileacidity 
-citricacid 
-residualsugar 
-chlorides 
-freesulfurdioxide 
-totalsulfurdioxide 
-density 
-pH 
-sulphates 
-alcohol
-
