@@ -689,6 +689,7 @@ gbm_gridperf <- h2o.getGrid(grid_id = "gbm_grid",
 # On prend le meilleur modéle GBM
 best_gbm_h2o <- h2o.getModel(gbm_gridperf@model_ids[[1]])
 
+
 # Prédictions & performance sur échantillon test
 prediction_gbm_h2o = h2o.predict(best_gbm_h2o, datatest_h2o)
 datatest_h2o = h2o.cbind(datatest_h2o,prediction_gbm_h2o[, "predict"])
