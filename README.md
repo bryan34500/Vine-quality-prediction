@@ -14,10 +14,6 @@ and is an ordinal variable ranging from 1 to 3 where:\
 2 = medium\
 3 = superior
 
-The problem of predicting an ordinal variable is interesting because there are several ways to
-approach it. The following article provides an interesting overview of the issue.
-
-
 
 ## Data
 
